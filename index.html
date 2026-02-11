@@ -177,302 +177,311 @@
     <div class="section" id="overview" style="align-content:center;">
       <!-- <img src="imgs/logo.png" class="mx-auto d-block" style="width:500px;"> -->
       <h2>Overview</h2>
-
-      In 2026, frontier robotics technologies are moving toward physical general intelligence.  A likely first application of robots capable of many tasks is to industrial settings. The <a href="https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide">millions of industrial robots today</a> are often single-purpose and pre-programmed with limited ability to adapt online. Moving to more general-purpose systems instead can allow companies to: 
+      <p>
+      Recent robotics research increasingly targets physical general intelligence, emphasizing generality,
+      learning, and adaptability across tasks. In contrast, industrial robots deployed in factories and
+      warehouses—numbering in the <a href="https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide">millions worldwide</a>—are
+      optimized for precision, repeatability, reliability, and safety, but are typically single-purpose and tightly engineered for fixed workflows. This divergence has
+      created a growing gap between what is demonstrated in research labs and what can be deployed in production environments.
+      </p>
+      <p>This workshop focuses on the challenges of translating recent advances in autonomous manipulation and perception from lab to production. Rather than asking how industry can adopt existing research systems, we emphasize what researchers must change in their methods, assumptions, and evaluation practices to meet industrial constraints. Key research questions include:</p>
       <ul>
-        <li>Make their manufacturing lines more flexible, with the ability to produce and/or customize more than one type of product with the same set of equipment; </li>
-        <li>Automate physical tasks that were previously intractable, when strides in robotic perception address the precision and speed demanded by industrial applications; and </li>
-        <li>Guarantee new levels of product quality or performance where more explainable processes result in fewer opportunities for error. </li>
+        <li>How can general-purpose robot systems achieve industrial levels of accuracy, speed, and robustness?</li>
+        <li>What representations, learning paradigms, and system architectures support both adaptability and repeatability?</li>
+        <li>How should researchers evaluate and benchmark autonomy under real-world manufacturing constraints?</li>
+        <li>What role do explainability, monitoring, and failure handling play in production-ready autonomy?</li>
       </ul>
-      This workshop aims to unite the industrial robotics community at IC, bringing together researchers across different domains (e.g., manufacturing, warehousing) to broaden the discussion on how recent advancements in autonomy and AI have influenced the field. To foster new insights and collaborations, this workshop will feature invited technical talks by renowned experts, spotlight presentations by emerging academic and industrial researchers, and demos by academic and industry research groups to (1) disseminate ground-breaking methods and systems, (2) discuss open challenges facing autonomous industrial perception and manipulation, and (3) surface future research needs in the field.
-      <br>
-      <br>
+      <p>This workshop aims to unite the industrial robotics community at RSS, bringing together researchers across different domains (e.g., manufacturing, warehousing, logistics) to broaden the discussion on how recent advancements in autonomy and AI have influenced the field. To foster new insights and collaborations, this workshop will feature invited technical talks by renowned experts, spotlight presentations by emerging academic and industrial researchers, and demos by academic and industry research groups to (1) disseminate ground-breaking methods and systems, (2) discuss open challenges facing autonomous industrial perception and manipulation, and (3) surface future research needs in the field.</p>
 
-      <div class="section" style="align-content:center;">
-        <!-- <img src="imgs/logo.png" class="mx-auto d-block" style="width:500px;"> -->
-        <h2>Discussion Topics</h2>
-        <ul>
-          <li>High-precision, contact-rich assembly and fine motor skills for tight tolerance and dexterous insertion tasks, with perception tightly coupled to control.</li>
-          <li>Long horizon robustness with monitoring, error detection, and failure recovery during extended assembly sequences.</li>
-          <li>Perception and pose estimation under factory realities such as clutter, occlusion, transparent or reflective parts, and high-speed motion.</li>
-          <li>Manipulation of diverse objects and with varied dynamics spanning fast pick-and-place of arbitrary objects and manipulating deformables like cables, belts, tape, packaging, and bags.</li>
-          <li>Factory world modeling, high fidelity simulation, and benchmarking to support sim2real transfer and evaluate policies for assembly and manipulation.</li>
-        </ul>
-      </div>
+    </div>
 
-      <div class="section" id="speakers" style="text-align: center;">
-        <h2>Invited Speakers</h2>
-        <div class="container" style="max-width: 1140px;">
-          <div class="row align-items-start">
-            <div class="col-md-3 text-center mb-4">
-              <a href="https://mariabauza.github.io/website/index.html" target="_blank">
-                <img src="imgs/speakers/maria_bauza.jpg" class="rounded-circle mb-2" alt="Maria Bauza" width="100"
-                  height="100">
-              </a><br>
-              <strong>
-                <a href="https://mariabauza.github.io/website/index.html" target="_blank">Maria Bauza</a>
-              </strong><br>
-              <span style="font-size: 0.95em;">Google DeepMind, London, United Kingdom</span>
-            </div>
+    <div class="section" id="discussion-topics" style="align-content:center;">
+      <!-- <img src="imgs/logo.png" class="mx-auto d-block" style="width:500px;"> -->
+      <h2>Discussion Topics</h2>
+      <ul>
+        <li>High-precision, contact-rich assembly and fine motor skills for tight tolerance and dexterous insertion tasks, with perception tightly coupled to control.</li>
+        <li>Monitoring, error detection, and failure recovery for robustness during extended assembly sequences.</li>
+        <li>Perception and pose estimation under factory realities such as clutter, occlusion, transparent or reflective parts, and high-speed motion.</li>
+        <li>Manipulation of diverse objects and with varied dynamics spanning fast pick-and-place of arbitrary objects and manipulating deformables like cables, belts, tape, packaging, and bags.</li>
+        <li>Factory world modeling, high fidelity simulation, and benchmarking to support sim2real transfer and evaluate policies for assembly and manipulation.</li>
+      </ul>
+    </div>
 
-            <div class="col-md-9 text-left mb-4">
-              <p>
-                <strong>Short Bio:</strong> Maria Bauza is a research scientist at Google DeepMind in London, UK. Before joining DeepMind, she received
-                the Ph.D. in Robotics at the Massachusetts Institute of Technology and Bachelor’s degrees in Mathematics and Physics from Universitat Politècnica
-                de Catalunya (UPC). Her research focuses on achieving precise robotic generalization by learning probabilistic models of the world that allow robots to
-                reuse their skills across multiple tasks and environments. Maria received several fellowships, including Facebook, NVIDIA, and LaCaixa fellowships. She
-                was also part of the MIT-Princeton Team participating in the Amazon Robotics Challenge, winning the stowing task in 2017 and receiving the 2018 Amazon
-                Best Systems Paper Award in Manipulation.
-                <br>
-                <strong>Talk Title:</strong> Precise Generalization: How to Make Robotic Manipulation Scalable and Reliable
-              </p>
+    <div class="section" id="speakers" style="align-content:center;">
+      <h2>Invited Speakers</h2>
+      <div class="container" style="max-width: 1140px;">
+        <div class="row align-items-start">
+          <div class="col-md-3 text-center mb-4">
+            <a href="https://mariabauza.github.io/website/index.html" target="_blank">
+              <img src="imgs/speakers/maria_bauza.jpg" class="rounded-circle mb-2" alt="Maria Bauza" width="100"
+                height="100">
+            </a><br>
+            <strong>
+              <a href="https://mariabauza.github.io/website/index.html" target="_blank">Maria Bauza</a>
+            </strong><br>
+            <div>Google DeepMind</div>
+            <div style="font-size: 0.95em;">London, UK</div>
+          </div>
 
-            </div>
-            <hr style="width:100%;" />
+          <div class="col-md-9 text-left mb-4">
+            <p>
+              <strong>Short Bio:</strong> Maria Bauza is a research scientist at Google DeepMind in London, UK. Before joining DeepMind, she received
+              the Ph.D. in Robotics at the Massachusetts Institute of Technology and Bachelor’s degrees in Mathematics and Physics from Universitat Politècnica
+              de Catalunya (UPC). Her research focuses on achieving precise robotic generalization by learning probabilistic models of the world that allow robots to
+              reuse their skills across multiple tasks and environments. Maria received several fellowships, including Facebook, NVIDIA, and LaCaixa fellowships. She
+              was also part of the MIT-Princeton Team participating in the Amazon Robotics Challenge, winning the stowing task in 2017 and receiving the 2018 Amazon
+              Best Systems Paper Award in Manipulation.
+              <br>
+              <strong>Talk Title:</strong> Precise Generalization: How to Make Robotic Manipulation Scalable and Reliable
+            </p>
 
+          </div>
+          <hr style="width:100%;" />
 
-            <div class="col-md-3 text-center mb-4">
-              <a href="https://jianlanluo.github.io/" target="_blank">
-                <img src="imgs/speakers/jianlan_luo.jpg" class="rounded-circle mb-2" alt="Yunzhu Li" width="100"
-                  height="100">
-              </a><br>
-              <strong>
-                <a href="https://jianlanluo.github.io/" target="_blank">Jianlan Luo</a>
-              </strong><br>
-              <span style="font-size: 0.95em;">AgiBot, Shanghai, China</span>
-            </div>
-            <div class="col-md-9 text-left mb-4">
-              <p>
-                <strong>Short Bio:</strong> Jianlan Luo is the Chief Scientist at AgiBot, a mass manufacturer of general-purpose humanoid robots based in Shanghai, China. Before joining AgiBot, Jianlan was a research scientist at Google X. He completed his Ph.D. at the University of California, Berkeley in 2020. He was named to the MIT Innovators Under 35 list in 2024.
-                <br>
-                <strong>Talk Title:</strong> TBD
-              </p>
-            </div>
-            <hr style="width:100%;" />
+          <div class="col-md-3 text-center mb-4">
+            <a href="https://jianlanluo.github.io/" target="_blank">
+              <img src="imgs/speakers/jianlan_luo.jpg" class="rounded-circle mb-2" alt="Yunzhu Li" width="100"
+                height="100">
+            </a><br>
+            <strong>
+              <a href="https://jianlanluo.github.io/" target="_blank">Jianlan Luo</a>
+            </strong><br>
+            <div>AgiBot</div>
+            <div style="font-size: 0.95em;">Shanghai, China</div>
+          </div>
+          <div class="col-md-9 text-left mb-4">
+            <p>
+              <strong>Short Bio:</strong> Jianlan Luo is the Chief Scientist at AgiBot, a mass manufacturer of general-purpose humanoid robots based in Shanghai, China. Before joining AgiBot, Jianlan was a research scientist at Google X. He completed his Ph.D. at the University of California, Berkeley in 2020. He was named to the MIT Innovators Under 35 list in 2024.
+              <br>
+              <strong>Talk Title:</strong> TBD
+            </p>
+          </div>
+          <hr style="width:100%;" />
 
+          <div class="col-md-3 text-center mb-4">
+            <a href="https://juxi.net/" target="_blank">
+              <img src="imgs/speakers/juxi_leitner.jpg" class="rounded-circle mb-2" alt="Juxi Leitner" width="100"
+                height="100">
+            </a><br>
+            <strong>
+              <a href="https://juxi.net/" target="_blank">Juxi Leitner</a>
+            </strong><br>
+            <div>Amazon Robotics</div>
+            <div style="font-size: 0.95em;">Berlin, Germany</div>
+          </div>
+          <div class="col-md-9 text-left mb-4">
+            <p>
+              <strong>Short Bio:</strong> Juxi Leitner is an Applied Science Manager at Amazon in Berlin, Germany. He has spent the better part of the 
+              last two decades conducting robotics research across academia, government, and industry. Before joining Amazon, Juxi was
+              founder, CEO, and CTO of LYRO Robotics, a startup creating general-purpose pick-and-place robots for the food supply chain based in Melbourne, Australia.
+              In 2017, his team from the Australian Centre for Robotic Vision won the Amazon Robotics Challenge.
+              <br>
+              <strong>Talk Title:</strong> TODO
+            </p>
+          </div>
+          <hr style="width:100%;" />
 
-            <div class="col-md-3 text-center mb-4">
-              <a href="https://juxi.net/" target="_blank">
-                <img src="imgs/speakers/juxi_leitner.jpg" class="rounded-circle mb-2" alt="Juxi Leitner" width="100"
-                  height="100">
-              </a><br>
-              <strong>
-                <a href="https://juxi.net/" target="_blank">Juxi Leitner</a>
-              </strong><br>
-              <span style="font-size: 0.95em;">Amazon Robotics, Berlin, Germany</span>
-            </div>
-            <div class="col-md-9 text-left mb-4">
-              <p>
-                <strong>Short Bio:</strong> Juxi Leitner is an Applied Science Manager at Amazon in Berlin, Germany. He has spent the better part of the 
-                last two decades conducting robotics research across academia, government, and industry. Before joining Amazon, Juxi was
-                founder, CEO, and CTO of LYRO Robotics, a startup creating general-purpose pick-and-place robots for the food supply chain based in Melbourne, Australia.
-                In 2017, his team from the Australian Centre for Robotic Vision won the Amazon Robotics Challenge.
-                <br>
-                <strong>Talk Title:</strong> TODO
-              </p>
-            </div>
-            <hr style="width:100%;" />
-
-            <div class="col-md-3 text-center mb-4">
-              <a href="https://www.linkedin.com/in/nicolashenryhudson/" target="_blank">
-                <img src="imgs/speakers/nicolas_hudson.jpg" class="rounded-circle mb-2" alt="Nicolas Hudson" width="100"
-                  height="100">
-              </a><br>
-              <strong>
-                <a href="https://www.linkedin.com/in/nicolashenryhudson/" target="_blank">Nicolas Hudson</a>
-              </strong><br>
-              <span style="font-size: 0.95em;">Amazon Robotics, Seattle, USA</span>
-            </div>
-            <div class="col-md-9 text-left mb-4">
-              <p>
-                <strong>Short Bio:</strong> Nicolas Hudson is a Principal Applied Scientist at Amazon Robotics, a position held since 2021. Previously, they served as
-                a Senior Principal Research Scientist at CSIRO's Data61, where they were the Principal Investigator for the DARPA Subterranean Challenge Team and led a
-                team researching robotic capabilities. Nicolas has also worked as a Senior Roboticist at both Google and NASA Jet Propulsion Laboratory, and held engineering
-                roles at X and Boston Dynamics. They earned a Bachelor of Engineering with honors in Mechanical Engineering from the University of Canterbury and a PhD in
-                Mechanical Engineering from Caltech.
-                <br>
-                <strong>Talk Title:</strong> Stow: Robotic Packing of Items into Fabric Pods
-              </p>
-            </div>
+          <div class="col-md-3 text-center mb-4">
+            <a href="https://www.linkedin.com/in/nicolashenryhudson/" target="_blank">
+              <img src="imgs/speakers/nicolas_hudson.jpg" class="rounded-circle mb-2" alt="Nicolas Hudson" width="100"
+                height="100">
+            </a><br>
+            <strong>
+              <a href="https://www.linkedin.com/in/nicolashenryhudson/" target="_blank">Nicolas Hudson</a>
+            </strong><br>
+            <div>Amazon Robotics</div>
+            <div style="font-size: 0.95em;">Seattle, USA</div>
+          </div>
+          <div class="col-md-9 text-left mb-4">
+            <p>
+              <strong>Short Bio:</strong> Nicolas Hudson is a Principal Applied Scientist at Amazon Robotics, a position held since 2021. Previously, they served as
+              a Senior Principal Research Scientist at CSIRO's Data61, where they were the Principal Investigator for the DARPA Subterranean Challenge Team and led a
+              team researching robotic capabilities. Nicolas has also worked as a Senior Roboticist at both Google and NASA Jet Propulsion Laboratory, and held engineering
+              roles at X and Boston Dynamics. They earned a Bachelor of Engineering with honors in Mechanical Engineering from the University of Canterbury and a PhD in
+              Mechanical Engineering from Caltech.
+              <br>
+              <strong>Talk Title:</strong> Stow: Robotic Packing of Items into Fabric Pods
+            </p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="section" id="schedule" style="align-content:center;">
-        <h2>Event Schedule</h2>
-        <table class="calculator table-borderless" style="text-align:center; margin: 0 auto;">
-          <tr>
-            <td class="noborder">8:30 - 8:35</td>
-            <td class="noborder"><b>Introduction and Opening Remarks</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">8:35 - 9:00</td>
-            <td class="noborder"><b>Introduction and Opening Remarks</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">9:00 - 9:25</td>
-            <td class="noborder"><b>Invited Talk: Maria Bauza</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">9:25 - 9:50</td>
-            <td class="noborder"><b>Invited Talk: Jianlan Luo</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">9:50 - 10:20</td>
-            <td class="noborder"><b>Spotlight Session and Poster Overview</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">10:20 - 10:50</td>
-            <td class="noborder"><b>Coffee Break and Poster Session</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">10:50 - 11:20</td>
-            <td class="noborder"><b>Invited Talk: Juxi Leitner</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">11:20 - 11:50</td>
-            <td class="noborder"><b>Invited Talk: Nicolas Hudson</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">11:50 - 12:20</td>
-            <td class="noborder"><b>Panel Discussion</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">12:20 - 12:30</td>
-            <td class="noborder"><b>Closing Remarks</b></td>
-          </tr>
-        </table>
+    <div class="section" id="schedule" style="align-content:center;">
+      <h2>Event Schedule</h2>
+      <table class="calculator table-borderless" style="text-align:center; margin: 0 auto;">
+        <tr>
+          <td class="noborder">8:30 - 8:35</td>
+          <td class="noborder"><b>Introduction and Opening Remarks</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">8:35 - 9:00</td>
+          <td class="noborder"><b>Invited Talk: TODO</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">9:00 - 9:25</td>
+          <td class="noborder"><b>Invited Talk: Maria Bauza</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">9:25 - 9:50</td>
+          <td class="noborder"><b>Invited Talk: Jianlan Luo</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">9:50 - 10:20</td>
+          <td class="noborder"><b>Spotlight Session and Poster Overview</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">10:20 - 10:50</td>
+          <td class="noborder"><b>Coffee Break and Poster Session</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">10:50 - 11:20</td>
+          <td class="noborder"><b>Invited Talk: Juxi Leitner</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">11:20 - 11:50</td>
+          <td class="noborder"><b>Invited Talk: Nicolas Hudson</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">11:50 - 12:20</td>
+          <td class="noborder"><b>Panel Discussion</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">12:20 - 12:30</td>
+          <td class="noborder"><b>Closing Remarks</b></td>
+        </tr>
+      </table>
+      <br><br>
+    </div>
+
+    <div class="section" id="papers" style="align-content:center;">
+      <h2>Call For Papers</h2>
+      <p>
+        We invite extended abstracts of up to 3 pages (excluding references, acknowledgments, limitations, and
+        appendix) formatted in the <a
+          href="https://roboticsconference.org/2019/12/04/paper-format/"><b>RSS
+            template</b></a> and submitted via the FLTF OpenReview
+            console. The extended abstract should be submitted along with references, acknowledgments, limitations, and
+            appendices as one .pdf file. Supplementary videos, websites, or data are welcome in the OpenReview submission but not
+            required, and must maintain author identity and affiliation anonymity.
         <br><br>
-      </div>
+        <b>Best Paper and Best Poster Awards:</b> The workshop will recognize outstanding contributions with a Best
+        Extended Abstract Award and a Best Poster Award.<br><br>
+        Submissions will be reviewed in a double-blind process by workshop organizers and attendees.
+        <b>Each submission must nominate one author as a reviewer to evaluate two other contributions</b>, following the RSS main
+        track's reciprocal review model. Authors are strongly encouraged to incorporate the feedback received from the reviewers to be considered for awards.
+        Accepted abstracts will be published on the workshop website, invited for spotlight presentations, and presented as posters.
+        <br><br>
+        We encourage forward-thinking submissions of new or in-progress ideas. Workshop paper versions of papers accepted to the RSS 2026 main track or any other prior conferences are not permitted. We
+        strongly encourage in-person participation of at least one author in the workshop.
+        The timezone for all deadlines is <a href="https://time.is/Anywhere_on_Earth"><b>Anywhere on Earth
+            (AoE)</b></a>.
+      </p>
+      <table class="calculator table-borderless" style="text-align:center; margin: 0 auto;">
+        <tr>
+          <td class="noborder">Paper Submission Opens</td>
+          <td class="noborder"><b>TBD </b></td>
+        </tr>
+        <tr>
+          <td class="noborder">Paper Submission Deadline</td>
+          <td class="noborder"><b>TBD</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">Review Period</td>
+          <td class="noborder"><b>TBD</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">Author Notification</td>
+          <td class="noborder"><b>TBD</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">Camera-ready Deadline</td>
+          <td class="noborder"><b>TBD</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">Spotlight Video Deadline</td>
+          <td class="noborder"><b>TBD</b></td>
+        </tr>
+        <tr>
+          <td class="noborder">Poster Deadline</td>
+          <td class="noborder"><b>TBD</b></td>
+        </tr>
+      </table>
+      <br><br><br><br>
+    </div>
 
-      <div class="section" id="papers" style="align-content:center;">
-        <h2>Call For Papers</h2>
-        <p>
-          We invite extended abstracts of up to 3 pages (excluding references, acknowledgments, limitations, and
-          appendix) formatted in the <a
-            href="https://roboticsconference.org/2019/12/04/paper-format/"><b>RSS
-              template</b></a> and submitted via the FLTF OpenReview
-              console. The extended abstract should be submitted along with references, acknowledgments, limitations, and
-              appendices as one .pdf file. Supplementary videos, websites, or data are welcome in the OpenReview submission but not
-              required, and must maintain author identity and affiliation anonymity.
-          <br><br>
-          <b>Best Paper and Best Poster Awards:</b> The workshop will recognize outstanding contributions with a Best
-          Extended Abstract Award and a Best Poster Award.<br><br>
-          Submissions will be reviewed in a double-blind process by workshop organizers and attendees.
-          <b>Each submission must nominate one author as a reviewer to evaluate two other contributions</b>, following the RSS main
-          track's reciprocal review model. Authors are strongly encouraged to incorporate the feedback received from the reviewers to be considered for awards.
-          Accepted abstracts will be published on the workshop website, invited for spotlight presentations, and presented as posters.
-          <br><br>
-          We encourage forward-thinking submissions of new or in-progress ideas. Workshop paper versions of papers accepted to the RSS 2026 main track or any other prior conferences are not permitted. We
-          strongly encourage in-person participation of at least one author in the workshop.
-          The timezone for all deadlines is <a href="https://time.is/Anywhere_on_Earth"><b>Anywhere on Earth
-              (AoE)</b></a>.
-        </p>
-        <table class="calculator table-borderless" style="text-align:center; margin: 0 auto;">
-          <tr>
-            <td class="noborder">Paper Submission Opens</td>
-            <td class="noborder"><b>TBD </b></td>
-          </tr>
-          <tr>
-            <td class="noborder">Paper Submission Deadline</td>
-            <td class="noborder"><b>TBD</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">Review Period</td>
-            <td class="noborder"><b>TBD</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">Author Notification</td>
-            <td class="noborder"><b>TBD</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">Camera-ready Deadline</td>
-            <td class="noborder"><b>TBD</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">Spotlight Video Deadline</td>
-            <td class="noborder"><b>TBD</b></td>
-          </tr>
-          <tr>
-            <td class="noborder">Poster Deadline</td>
-            <td class="noborder"><b>TBD</b></td>
-          </tr>
-        </table>
-        <br><br><br><br>
-      </div>
+    <div class="section" id="organizers" style="text-align: center;">
+      <h2>Organizers</h2>
+      <br>
+      <div class="grid profiles">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href="https://hollydinkel.github.io/" target="_blank"><img src="imgs/organizers/holly_dinkel.jpg"
+                class="rounded-circle" alt="Holly Dinkel" width="140" height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://hollydinkel.github.io/" target="_blank">Holly Dinkel</a>
+            </h5>
+            Samsung Research America
+          </div>
 
-      <div class="section" id="organizers" style="text-align: center; padding: 10px;">
-        <h2>Organizers</h2>
-        <br>
-        <div class="grid profiles">
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href="https://hollydinkel.github.io/" target="_blank"><img src="imgs/organizers/holly_dinkel.jpg"
-                  class="rounded-circle" alt="Holly Dinkel" width="140" height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://hollydinkel.github.io/" target="_blank">Holly Dinkel</a>
-              </h5>
-              Samsung Research America
-            </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href="https://www.xiao-liu.me/" target="_blank"><img src="imgs/organizers/xiao_liu.png"
+                class="rounded-circle" alt="Xiao Liu" width="140" height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://www.xiao-liu.me/" target="_blank">Xiao Liu</a>
+            </h5>
+            Samsung Research America
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href="https://www.xiao-liu.me/" target="_blank"><img src="imgs/organizers/xiao_liu.png"
-                  class="rounded-circle" alt="Xiao Liu" width="140" height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://www.xiao-liu.me/" target="_blank">Xiao Liu</a>
-              </h5>
-              Samsung Research America
-            </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href="https://kkhauser.web.illinois.edu/" target="_blank"><img src="imgs/organizers/kris_hauser.jpg"
+                class="rounded-circle" alt="Kris Hauser" width="140" height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://kkhauser.web.illinois.edu/" target="_blank">Kris Hauser</a>
+            </h5>
+            Samsung Research America<br>
+            University of Illinois Urbana-Champaign
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href="https://kkhauser.web.illinois.edu/" target="_blank"><img src="imgs/organizers/kris_hauser.jpg"
-                  class="rounded-circle" alt="Kris Hauser" width="140" height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://kkhauser.web.illinois.edu/" target="_blank">Kris Hauser</a>
-              </h5>
-              Samsung Research America<br>
-              University of Illinois Urbana-Champaign
-            </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href="https://youngwoon.github.io/youngwoon" target="_blank"><img src="imgs/organizers/youngwoon_lee.jpg"
+                class="rounded-circle" alt="Youngwoon Lee" width="140" height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://youngwoon.github.io/youngwoon" target="_blank">Youngwoon Lee</a></h5>
+            Yonsei University
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href="https://youngwoon.github.io/youngwoon" target="_blank"><img src="imgs/organizers/youngwoon_lee.jpg"
-                  class="rounded-circle" alt="Youngwoon Lee" width="140" height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://youngwoon.github.io/youngwoon" target="_blank">Youngwoon Lee</a></h5>
-              Yonsei University
-            </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href=https://www.unibo.it/sitoweb/alessio.caporali/cv-en target="_blank"><img
+                src="imgs/organizers/alessio_caporali.png" class="rounded-circle" alt="Alessio Caporali" width="140"
+                height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://www.unibo.it/sitoweb/alessio.caporali/cv-en"
+                target="_blank">Alessio Caporali</a></h5>
+            University of Bologna
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href=https://www.unibo.it/sitoweb/alessio.caporali/cv-en target="_blank"><img
-                  src="imgs/organizers/alessio_caporali.png" class="rounded-circle" alt="Alessio Caporali" width="140"
-                  height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://www.unibo.it/sitoweb/alessio.caporali/cv-en"
-                  target="_blank">Alessio Caporali</a></h5>
-              University of Bologna
-            </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href="https://www.linkedin.com/in/simon-manschitz/" target="_blank"><img src="imgs/organizers/simon_manschitz.jpg"
+                class="rounded-circle" alt="Simon Manschitz" width="140" height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://www.linkedin.com/in/simon-manschitz/" target="_blank">Simon Manschitz</a></h5>
+            Honda Research Institute
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href="https://www.linkedin.com/in/simon-manschitz/" target="_blank"><img src="imgs/organizers/simon_manschitz.jpg"
-                  class="rounded-circle" alt="Simon Manschitz" width="140" height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://www.linkedin.com/in/simon-manschitz/" target="_blank">Simon Manschitz</a></h5>
-              Honda Research Institute
-            </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href="https://eric-heiden.com/" target="_blank"><img src="imgs/organizers/eric_heiden.jpg"
+                class="rounded-circle" alt="Eric Heiden" width="140" height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://eric-heiden.com/" target="_blank">Eric Heiden</a>
+            </h5>
+            Nvidia
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href="https://eric-heiden.com/" target="_blank"><img src="imgs/organizers/eric_heiden.jpg"
-                  class="rounded-circle" alt="Eric Heiden" width="140" height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://eric-heiden.com/" target="_blank">Eric Heiden</a>
-              </h5>
-              Nvidia
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
-              <a href="https://k-r-allen.github.io/" target="_blank"><img src="imgs/organizers/kelsey_allen.png"
-                  class="rounded-circle" alt="Kelsey Allen" width="140" height="140"></a>
-              <h5 style="margin-bottom:0em;"><a href="https://k-r-allen.github.io/" target="_blank">Kelsey Allen</a>
-              </h5>
-              University of British Columbia
-            </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 profile" style="padding-bottom: 30px;">
+            <a href="https://k-r-allen.github.io/" target="_blank"><img src="imgs/organizers/kelsey_allen.png"
+                class="rounded-circle" alt="Kelsey Allen" width="140" height="140"></a>
+            <h5 style="margin-bottom:0em;"><a href="https://k-r-allen.github.io/" target="_blank">Kelsey Allen</a>
+            </h5>
+            University of British Columbia
           </div>
         </div>
-
       </div>
+
+    </div>
 
     </div>
     <div class="foot">
